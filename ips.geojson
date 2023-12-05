@@ -1,0 +1,294 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Timestamp": "2023-12-05 13:35:48",
+                "IP": "101.42.33.12",
+                "City": "Beijing",
+                "Region": "Beijing",
+                "Country": "CN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    116.3972,
+                    39.9075
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Timestamp": "2023-12-05 13:35:48",
+                "IP": "125.189.120.82",
+                "City": "Seoul",
+                "Region": "Seoul",
+                "Country": "KR"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    126.9784,
+                    37.566
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Timestamp": "2023-12-05 13:35:49",
+                "IP": "13.74.46.65",
+                "City": "Dublin",
+                "Region": "Leinster",
+                "Country": "IE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -6.2489,
+                    53.3331
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Timestamp": "2023-12-05 13:35:49",
+                "IP": "141.95.175.124",
+                "City": "Lille",
+                "Region": "Hauts-de-France",
+                "Country": "FR"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.0586,
+                    50.633
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Timestamp": "2023-12-05 13:35:49",
+                "IP": "14.225.209.117",
+                "City": "Ho Chi Minh City",
+                "Region": "Ho Chi Minh",
+                "Country": "VN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.6296,
+                    10.823
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Timestamp": "2023-12-05 13:35:49",
+                "IP": "148.72.247.54",
+                "City": "Singapore",
+                "Region": "Singapore",
+                "Country": "SG"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.8501,
+                    1.2897
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Timestamp": "2023-12-05 13:35:50",
+                "IP": "157.230.113.181",
+                "City": "Frankfurt am Main",
+                "Region": "Hesse",
+                "Country": "DE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.6842,
+                    50.1155
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Timestamp": "2023-12-05 13:35:50",
+                "IP": "159.65.153.117",
+                "City": "Doddaballapura",
+                "Region": "Karnataka",
+                "Country": "IN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.575,
+                    13.2257
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Timestamp": "2023-12-05 13:35:50",
+                "IP": "161.35.46.11",
+                "City": "London",
+                "Region": "England",
+                "Country": "GB"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.1257,
+                    51.5085
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Timestamp": "2023-12-05 13:35:50",
+                "IP": "165.154.36.71",
+                "City": "Los Angeles",
+                "Region": "California",
+                "Country": "US"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.2437,
+                    34.0522
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Timestamp": "2023-12-05 13:35:51",
+                "IP": "196.196.253.2",
+                "City": "Tallinn",
+                "Region": "Harjumaa",
+                "Country": "EE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.7535,
+                    59.437
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Timestamp": "2023-12-05 13:35:51",
+                "IP": "43.130.17.92",
+                "City": "Santa Clara",
+                "Region": "California",
+                "Country": "US"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.9769,
+                    37.3451
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Timestamp": "2023-12-05 13:35:51",
+                "IP": "43.135.48.212",
+                "City": "Hong Kong",
+                "Region": "Central and Western",
+                "Country": "HK"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.1747,
+                    22.2783
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Timestamp": "2023-12-05 13:35:52",
+                "IP": "43.156.243.235",
+                "City": "Singapore",
+                "Region": "Singapore",
+                "Country": "SG"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.8501,
+                    1.2897
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Timestamp": "2023-12-05 13:35:52",
+                "IP": "43.156.69.230",
+                "City": "Singapore",
+                "Region": "Singapore",
+                "Country": "SG"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.8501,
+                    1.2897
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Timestamp": "2023-12-05 13:35:52",
+                "IP": "51.68.175.129",
+                "City": "Frankfurt am Main",
+                "Region": "Hesse",
+                "Country": "DE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.6842,
+                    50.1155
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Timestamp": "2023-12-05 13:35:52",
+                "IP": "94.127.212.198",
+                "City": "Amman",
+                "Region": "Amman",
+                "Country": "JO"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    35.945,
+                    31.9552
+                ]
+            }
+        }
+    ]
+}

@@ -47,6 +47,15 @@ func main() {
 
 	// Parse the CSV file
 	reader := csv.NewReader(csvFile)
+
+	// Read and discard the header line
+	_, err = reader.Read()
+	if err != nil {
+		fmt.Println("Error reading CSV header:", err)
+		return
+	}
+
+	// Read the rest of the CSV file
 	records, err := reader.ReadAll()
 	if err != nil {
 		fmt.Println("Error reading CSV:", err)
