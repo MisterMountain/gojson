@@ -5,7 +5,9 @@ import (
 	"encoding/json"
 	"fmt"
 	"os"
+	"path/filepath"
 	"strconv"
+	"strings"
 )
 
 type GeoJSONFeature struct {
@@ -51,6 +53,9 @@ func main() {
 		return
 	}
 
+	// Extract the base name of the CSV file without extension
+	baseName := strings.TrimSuffix(filepath.Base(csvFilePath), filepath.Ext(csvFilePath))
+
 	// Create GeoJSON features
 	var features []GeoJSONFeature
 	for _, record := range records {
@@ -87,6 +92,9 @@ func main() {
 		Features: features,
 	}
 
+	// Generate output GeoJSON file name
+	outputFileName := baseName + ".geojson"
+
 	// Convert GeoJSON to JSON
 	jsonData, err := json.MarshalIndent(geoJSON, "", "    ")
 	if err != nil {
@@ -95,7 +103,7 @@ func main() {
 	}
 
 	// Write JSON to file
-	jsonFile, err := os.Create("output.geojson")
+	jsonFile, err := os.Create(outputFileName)
 	if err != nil {
 		fmt.Println("Error creating GeoJSON file:", err)
 		return
@@ -104,6 +112,6 @@ func main() {
 
 	jsonFile.Write(jsonData)
 
-	fmt.Println("GeoJSON file created successfully.")
+	fmt.Printf("GeoJSON file '%s' created successfully.\n", outputFileName)
 }
 
